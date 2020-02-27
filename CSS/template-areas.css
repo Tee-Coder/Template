@@ -46,8 +46,12 @@
 }
 
 /*Lets try positioning*/
-.second-service{
-    width:50%;
-    height: 50%;
+.first-service,
+.second-service,
+.third-service{
+    width:50%;/*Percent is based on available cell space*/
+    height: 50%;/*Percent is based on available cell space!*/
+    justify-self center; /*Horizontal position(start, center, end)*/
+    align-self:center;/*Vertical Position (start, center, end)*/
 }
 
